@@ -108,6 +108,7 @@ body {
       text-decoration: none;
       display: flex;
       justify-content: start;
+      align-items: center;
   }
 
   .contact-info__item:not(:last-child) {
@@ -129,11 +130,17 @@ body {
       height: 1.1428rem;
       vertical-align: text-bottom;
   }
+  .awards__item-icon {
+    height: 2.1428rem;
+    vertical-align: text-bottom;
+    margin-right: 20px;
+    fill: var(--icon-color);
+}
 
   .contact-info__avatar {
-      border-radius: 50%;
-      width: 100px;
-      height: 100px;
+      border-radius: 10%;
+      width: 120px;
+      height: 120px;
       object-fit: cover;
       border: 3px solid;
       border-color: var(--text-decoration-color);
@@ -178,6 +185,15 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+}
+.awards__text {
+    color: var(--secondary-text-color);
+    text-align: start;
+}
+.div__awards
+{
+    display: flex;
+    justify-content: start;
 }
 
 /**************************************/
